@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: happynumber-py-service
+  namespace: dev
+  labels:
+    app: happynumber-py
+spec:
+  type: LoadBalancer
+  selector:
+    app: happynumber-py
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000

@@ -1,0 +1,9 @@
+# Production Dependencies
+Flask==3.0.3
+gunicorn==22.0.0
+
+# Testing Dependencies
+pytest==8.2.2
+
+# Linting Dependencies
+pylint==3.2.2
