@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Test & Coverage Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
